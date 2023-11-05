@@ -1,0 +1,28 @@
+body{
+    background-color: blue;
+}
+.button{
+    background-color: azure;
+
+}
+/*
+@media only screen and (max-width:320px) {
+    body{
+        background-color: brown;
+    }
+    .button{
+        display: none;
+    }
+    
+}*/
+@media only screen and (max-width:320px) {
+    body{
+        background-color: brown;
+    }  
+}
+@media only screen and (max-width:425px) and (min-width:320px) {
+    body{
+        background-color:blueviolet;
+    }
+    
+}
